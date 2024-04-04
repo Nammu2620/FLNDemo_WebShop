@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser launched]]>
+    </line>
+    <line>
+      <![CDATA[URL is entered]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-04-05T00:28:15 IST" name="Default suite" finished-at="2024-04-05T00:28:39 IST" duration-ms="24592">
+    <groups>
+    </groups>
+    <test started-at="2024-04-05T00:28:15 IST" name="Default test" finished-at="2024-04-05T00:28:39 IST" duration-ms="24592">
+      <class name="tanuja.TC01_AddOneGiftCardToCart">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:tanuja.TC01_AddOneGiftCardToCart@6e4784bc]" started-at="2024-04-05T00:28:15 IST" name="beforeclass" finished-at="2024-04-05T00:28:32 IST" duration-ms="17307" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser launched]]>
+            </line>
+            <line>
+              <![CDATA[URL is entered]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="addGCToCart()[pri:0, instance:tanuja.TC01_AddOneGiftCardToCart@6e4784bc]" started-at="2024-04-05T00:28:32 IST" name="addGCToCart" finished-at="2024-04-05T00:28:39 IST" duration-ms="6588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addGCToCart -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:tanuja.TC01_AddOneGiftCardToCart@6e4784bc]" started-at="2024-04-05T00:28:39 IST" name="afterclass" finished-at="2024-04-05T00:28:39 IST" duration-ms="573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- tanuja.TC01_AddOneGiftCardToCart -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
