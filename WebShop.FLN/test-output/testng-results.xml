@@ -7,13 +7,37 @@
     <line>
       <![CDATA[URL is entered]]>
     </line>
+    <line>
+      <![CDATA[50's Rockabilly Polka Dot Top JR Plus Size]]>
+    </line>
+    <line>
+      <![CDATA[Blue and green Sneaker]]>
+    </line>
+    <line>
+      <![CDATA[Blue Jeans]]>
+    </line>
+    <line>
+      <![CDATA[Casual Golf Belt]]>
+    </line>
+    <line>
+      <![CDATA[Custom T-Shirt]]>
+    </line>
+    <line>
+      <![CDATA[Denim Short with Rhinestones]]>
+    </line>
+    <line>
+      <![CDATA[Genuine Leather Handbag with Cell Phone Holder & Many Pockets]]>
+    </line>
+    <line>
+      <![CDATA[Green and blue Sneaker]]>
+    </line>
   </reporter-output>
-  <suite started-at="2024-04-05T00:28:15 IST" name="Default suite" finished-at="2024-04-05T00:28:39 IST" duration-ms="24592">
+  <suite started-at="2024-04-05T09:21:54 IST" name="Default suite" finished-at="2024-04-05T09:22:08 IST" duration-ms="13879">
     <groups>
     </groups>
-    <test started-at="2024-04-05T00:28:15 IST" name="Default test" finished-at="2024-04-05T00:28:39 IST" duration-ms="24592">
-      <class name="tanuja.TC01_AddOneGiftCardToCart">
-        <test-method is-config="true" signature="beforeclass()[pri:0, instance:tanuja.TC01_AddOneGiftCardToCart@6e4784bc]" started-at="2024-04-05T00:28:15 IST" name="beforeclass" finished-at="2024-04-05T00:28:32 IST" duration-ms="17307" status="PASS">
+    <test started-at="2024-04-05T09:21:54 IST" name="Default test" finished-at="2024-04-05T09:22:08 IST" duration-ms="13879">
+      <class name="VarshiniJM.SearchForProduct">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:VarshiniJM.SearchForProduct@74751b3]" started-at="2024-04-05T09:21:54 IST" name="beforeclass" finished-at="2024-04-05T09:22:04 IST" duration-ms="10156" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser launched]]>
@@ -23,15 +47,39 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeclass -->
-        <test-method signature="addGCToCart()[pri:0, instance:tanuja.TC01_AddOneGiftCardToCart@6e4784bc]" started-at="2024-04-05T00:28:32 IST" name="addGCToCart" finished-at="2024-04-05T00:28:39 IST" duration-ms="6588" status="PASS">
+        <test-method signature="SearchProduct()[pri:0, instance:VarshiniJM.SearchForProduct@74751b3]" started-at="2024-04-05T09:22:04 IST" name="SearchProduct" finished-at="2024-04-05T09:22:08 IST" duration-ms="3224" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[50's Rockabilly Polka Dot Top JR Plus Size]]>
+            </line>
+            <line>
+              <![CDATA[Blue and green Sneaker]]>
+            </line>
+            <line>
+              <![CDATA[Blue Jeans]]>
+            </line>
+            <line>
+              <![CDATA[Casual Golf Belt]]>
+            </line>
+            <line>
+              <![CDATA[Custom T-Shirt]]>
+            </line>
+            <line>
+              <![CDATA[Denim Short with Rhinestones]]>
+            </line>
+            <line>
+              <![CDATA[Genuine Leather Handbag with Cell Phone Holder & Many Pockets]]>
+            </line>
+            <line>
+              <![CDATA[Green and blue Sneaker]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- addGCToCart -->
-        <test-method is-config="true" signature="afterclass()[pri:0, instance:tanuja.TC01_AddOneGiftCardToCart@6e4784bc]" started-at="2024-04-05T00:28:39 IST" name="afterclass" finished-at="2024-04-05T00:28:39 IST" duration-ms="573" status="PASS">
+        </test-method> <!-- SearchProduct -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:VarshiniJM.SearchForProduct@74751b3]" started-at="2024-04-05T09:22:08 IST" name="afterclass" finished-at="2024-04-05T09:22:08 IST" duration-ms="453" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterclass -->
-      </class> <!-- tanuja.TC01_AddOneGiftCardToCart -->
+      </class> <!-- VarshiniJM.SearchForProduct -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
