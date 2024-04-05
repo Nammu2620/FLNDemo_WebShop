@@ -164,5 +164,4 @@ public class Order_Checkout extends BasePage{
 	public WebElement getConfirmButton() {
 		return confirmButton;
 	}
-
 }
