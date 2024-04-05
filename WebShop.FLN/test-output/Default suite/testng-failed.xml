@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="VarshiniJM.RegisterToApplication_Test">
+      <class name="Renuka.TC_RemoveFromCart_002_Test">
         <methods>
-          <include name="Register"/>
+          <include name="removeFromCart"/>
           <include name="beforeclass"/>
           <include name="afterclass"/>
         </methods>
-      </class> <!-- VarshiniJM.RegisterToApplication_Test -->
+      </class> <!-- Renuka.TC_RemoveFromCart_002_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
