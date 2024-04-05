@@ -7,37 +7,13 @@
     <line>
       <![CDATA[URL is entered]]>
     </line>
-    <line>
-      <![CDATA[50's Rockabilly Polka Dot Top JR Plus Size]]>
-    </line>
-    <line>
-      <![CDATA[Blue and green Sneaker]]>
-    </line>
-    <line>
-      <![CDATA[Blue Jeans]]>
-    </line>
-    <line>
-      <![CDATA[Casual Golf Belt]]>
-    </line>
-    <line>
-      <![CDATA[Custom T-Shirt]]>
-    </line>
-    <line>
-      <![CDATA[Denim Short with Rhinestones]]>
-    </line>
-    <line>
-      <![CDATA[Genuine Leather Handbag with Cell Phone Holder & Many Pockets]]>
-    </line>
-    <line>
-      <![CDATA[Green and blue Sneaker]]>
-    </line>
   </reporter-output>
-  <suite started-at="2024-04-05T09:21:54 IST" name="Default suite" finished-at="2024-04-05T09:22:08 IST" duration-ms="13879">
+  <suite started-at="2024-04-05T10:07:37 IST" name="Default suite" finished-at="2024-04-05T10:07:58 IST" duration-ms="20601">
     <groups>
     </groups>
-    <test started-at="2024-04-05T09:21:54 IST" name="Default test" finished-at="2024-04-05T09:22:08 IST" duration-ms="13879">
-      <class name="VarshiniJM.SearchForProduct">
-        <test-method is-config="true" signature="beforeclass()[pri:0, instance:VarshiniJM.SearchForProduct@74751b3]" started-at="2024-04-05T09:21:54 IST" name="beforeclass" finished-at="2024-04-05T09:22:04 IST" duration-ms="10156" status="PASS">
+    <test started-at="2024-04-05T10:07:37 IST" name="Default test" finished-at="2024-04-05T10:07:58 IST" duration-ms="20601">
+      <class name="kirthiga.SearchProductAndAddToCart">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:kirthiga.SearchProductAndAddToCart@7c711375]" started-at="2024-04-05T10:07:37 IST" name="beforeclass" finished-at="2024-04-05T10:07:50 IST" duration-ms="12968" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser launched]]>
@@ -47,39 +23,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeclass -->
-        <test-method signature="SearchProduct()[pri:0, instance:VarshiniJM.SearchForProduct@74751b3]" started-at="2024-04-05T09:22:04 IST" name="SearchProduct" finished-at="2024-04-05T09:22:08 IST" duration-ms="3224" status="PASS">
+        <test-method signature="searchAndAdd()[pri:0, instance:kirthiga.SearchProductAndAddToCart@7c711375]" started-at="2024-04-05T10:07:50 IST" name="searchAndAdd" finished-at="2024-04-05T10:07:58 IST" duration-ms="7215" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[50's Rockabilly Polka Dot Top JR Plus Size]]>
-            </line>
-            <line>
-              <![CDATA[Blue and green Sneaker]]>
-            </line>
-            <line>
-              <![CDATA[Blue Jeans]]>
-            </line>
-            <line>
-              <![CDATA[Casual Golf Belt]]>
-            </line>
-            <line>
-              <![CDATA[Custom T-Shirt]]>
-            </line>
-            <line>
-              <![CDATA[Denim Short with Rhinestones]]>
-            </line>
-            <line>
-              <![CDATA[Genuine Leather Handbag with Cell Phone Holder & Many Pockets]]>
-            </line>
-            <line>
-              <![CDATA[Green and blue Sneaker]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- SearchProduct -->
-        <test-method is-config="true" signature="afterclass()[pri:0, instance:VarshiniJM.SearchForProduct@74751b3]" started-at="2024-04-05T09:22:08 IST" name="afterclass" finished-at="2024-04-05T09:22:08 IST" duration-ms="453" status="PASS">
+        </test-method> <!-- searchAndAdd -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:kirthiga.SearchProductAndAddToCart@7c711375]" started-at="2024-04-05T10:07:58 IST" name="afterclass" finished-at="2024-04-05T10:07:58 IST" duration-ms="365" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterclass -->
-      </class> <!-- VarshiniJM.SearchForProduct -->
+      </class> <!-- kirthiga.SearchProductAndAddToCart -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
