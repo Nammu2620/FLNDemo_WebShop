@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Browser launched]]>
@@ -7,37 +7,23 @@
     <line>
       <![CDATA[URL is entered]]>
     </line>
-    <line>
-      <![CDATA[50's Rockabilly Polka Dot Top JR Plus Size]]>
-    </line>
-    <line>
-      <![CDATA[Blue and green Sneaker]]>
-    </line>
-    <line>
-      <![CDATA[Blue Jeans]]>
-    </line>
-    <line>
-      <![CDATA[Casual Golf Belt]]>
-    </line>
-    <line>
-      <![CDATA[Custom T-Shirt]]>
-    </line>
-    <line>
-      <![CDATA[Denim Short with Rhinestones]]>
-    </line>
-    <line>
-      <![CDATA[Genuine Leather Handbag with Cell Phone Holder & Many Pockets]]>
-    </line>
-    <line>
-      <![CDATA[Green and blue Sneaker]]>
-    </line>
   </reporter-output>
-  <suite started-at="2024-04-05T09:21:54 IST" name="Default suite" finished-at="2024-04-05T09:22:08 IST" duration-ms="13879">
+<<<<<<< HEAD
+  <suite started-at="2024-04-05T10:07:37 IST" name="Default suite" finished-at="2024-04-05T10:07:58 IST" duration-ms="20601">
+=======
+  <suite started-at="2024-04-05T10:03:27 IST" name="Default suite" finished-at="2024-04-05T10:03:54 IST" duration-ms="26741">
+>>>>>>> branch 'master' of https://github.com/Nammu2620/FLNDemo_WebShop.git
     <groups>
     </groups>
-    <test started-at="2024-04-05T09:21:54 IST" name="Default test" finished-at="2024-04-05T09:22:08 IST" duration-ms="13879">
-      <class name="VarshiniJM.SearchForProduct">
-        <test-method is-config="true" signature="beforeclass()[pri:0, instance:VarshiniJM.SearchForProduct@74751b3]" started-at="2024-04-05T09:21:54 IST" name="beforeclass" finished-at="2024-04-05T09:22:04 IST" duration-ms="10156" status="PASS">
+<<<<<<< HEAD
+    <test started-at="2024-04-05T10:07:37 IST" name="Default test" finished-at="2024-04-05T10:07:58 IST" duration-ms="20601">
+      <class name="kirthiga.SearchProductAndAddToCart">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:kirthiga.SearchProductAndAddToCart@7c711375]" started-at="2024-04-05T10:07:37 IST" name="beforeclass" finished-at="2024-04-05T10:07:50 IST" duration-ms="12968" status="PASS">
+=======
+    <test started-at="2024-04-05T10:03:27 IST" name="Default test" finished-at="2024-04-05T10:03:54 IST" duration-ms="26741">
+      <class name="Renuka.TC_RemoveFromCart_002_Test">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:Renuka.TC_RemoveFromCart_002_Test@418e7838]" started-at="2024-04-05T10:03:27 IST" name="beforeclass" finished-at="2024-04-05T10:03:48 IST" duration-ms="20667" status="PASS">
+>>>>>>> branch 'master' of https://github.com/Nammu2620/FLNDemo_WebShop.git
           <reporter-output>
             <line>
               <![CDATA[Browser launched]]>
@@ -47,39 +33,98 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeclass -->
-        <test-method signature="SearchProduct()[pri:0, instance:VarshiniJM.SearchForProduct@74751b3]" started-at="2024-04-05T09:22:04 IST" name="SearchProduct" finished-at="2024-04-05T09:22:08 IST" duration-ms="3224" status="PASS">
+<<<<<<< HEAD
+        <test-method signature="searchAndAdd()[pri:0, instance:kirthiga.SearchProductAndAddToCart@7c711375]" started-at="2024-04-05T10:07:50 IST" name="searchAndAdd" finished-at="2024-04-05T10:07:58 IST" duration-ms="7215" status="PASS">
+=======
+        <test-method signature="removeFromCart()[pri:0, instance:Renuka.TC_RemoveFromCart_002_Test@418e7838]" started-at="2024-04-05T10:03:48 IST" name="removeFromCart" finished-at="2024-04-05T10:03:53 IST" duration-ms="5799" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[disconnected: received Inspector.detached event
+  (failed to check if window was closed: disconnected: unable to send message to renderer)
+  (Session info: chrome=123.0.6312.105)
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9663569b0aff340052d8ec3f1559de2f, findElement {using=partial link text, value=Log in}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.105, chrome: {chromedriverVersion: 123.0.6312.105 (399174dbe6e..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50933}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50933/devtoo..., se:cdpVersion: 123.0.6312.105, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9663569b0aff340052d8ec3f1559de2f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: disconnected: received Inspector.detached event
+  (failed to check if window was closed: disconnected: unable to send message to renderer)
+  (Session info: chrome=123.0.6312.105)
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9663569b0aff340052d8ec3f1559de2f, findElement {using=partial link text, value=Log in}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.105, chrome: {chromedriverVersion: 123.0.6312.105 (399174dbe6e..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50933}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50933/devtoo..., se:cdpVersion: 123.0.6312.105, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9663569b0aff340052d8ec3f1559de2f
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+at ElementRepository.Login.Login_Actions(Login.java:51)
+at Renuka.TC_RemoveFromCart_002_Test.removeFromCart(TC_RemoveFromCart_002_Test.java:18)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+>>>>>>> branch 'master' of https://github.com/Nammu2620/FLNDemo_WebShop.git
           <reporter-output>
-            <line>
-              <![CDATA[50's Rockabilly Polka Dot Top JR Plus Size]]>
-            </line>
-            <line>
-              <![CDATA[Blue and green Sneaker]]>
-            </line>
-            <line>
-              <![CDATA[Blue Jeans]]>
-            </line>
-            <line>
-              <![CDATA[Casual Golf Belt]]>
-            </line>
-            <line>
-              <![CDATA[Custom T-Shirt]]>
-            </line>
-            <line>
-              <![CDATA[Denim Short with Rhinestones]]>
-            </line>
-            <line>
-              <![CDATA[Genuine Leather Handbag with Cell Phone Holder & Many Pockets]]>
-            </line>
-            <line>
-              <![CDATA[Green and blue Sneaker]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- SearchProduct -->
-        <test-method is-config="true" signature="afterclass()[pri:0, instance:VarshiniJM.SearchForProduct@74751b3]" started-at="2024-04-05T09:22:08 IST" name="afterclass" finished-at="2024-04-05T09:22:08 IST" duration-ms="453" status="PASS">
+<<<<<<< HEAD
+        </test-method> <!-- searchAndAdd -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:kirthiga.SearchProductAndAddToCart@7c711375]" started-at="2024-04-05T10:07:58 IST" name="afterclass" finished-at="2024-04-05T10:07:58 IST" duration-ms="365" status="PASS">
+=======
+        </test-method> <!-- removeFromCart -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:Renuka.TC_RemoveFromCart_002_Test@418e7838]" started-at="2024-04-05T10:03:54 IST" name="afterclass" finished-at="2024-04-05T10:03:54 IST" duration-ms="201" status="PASS">
+>>>>>>> branch 'master' of https://github.com/Nammu2620/FLNDemo_WebShop.git
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterclass -->
-      </class> <!-- VarshiniJM.SearchForProduct -->
+<<<<<<< HEAD
+      </class> <!-- kirthiga.SearchProductAndAddToCart -->
+=======
+      </class> <!-- Renuka.TC_RemoveFromCart_002_Test -->
+>>>>>>> branch 'master' of https://github.com/Nammu2620/FLNDemo_WebShop.git
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
