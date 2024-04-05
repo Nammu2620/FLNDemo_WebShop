@@ -12,7 +12,6 @@ public class Register extends BasePage{
 		super(driver);
 		// TODO Auto-generated constructor stub
 	}
-	
 /*========Finding Login Page elements using FindBy annotations===========*/
 	
 	@FindBy(id = "gender-female")

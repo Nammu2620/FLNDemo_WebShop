@@ -11,7 +11,6 @@ public class Login extends BasePage {
 		super(driver);
 		// TODO Auto-generated constructor stub
 	}
-
 /*========Finding Login Page elements using FindBy annotations===========*/
 	
 	@FindBy(id = "Email")

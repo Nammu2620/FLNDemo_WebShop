@@ -9,8 +9,8 @@ import GenericLibrary.BasePage;
 public class GiftCards extends BasePage{
 	public GiftCards(WebDriver driver) {
 		super(driver);
+		// TODO Auto-generated constructor stub
 	}
-	
 	@FindBy(id="products-orderby")
 	private WebElement proOrder;
 	
