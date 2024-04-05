@@ -3,6 +3,7 @@ package ElementRepository;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+
 import GenericLibrary.BasePage;
 
 public class Login extends BasePage {
@@ -40,6 +41,17 @@ public class Login extends BasePage {
 
 	public WebElement getLoginButton() {
 		return loginButton;
+	}
+
+/*=========Business Logic============*/
+	
+	public void Login_Actions(String username, String password) {
+
+		getLoginlink().click();
+		emailTextBox.sendKeys(username);
+		passwordTextBox.sendKeys(password);
+		getLoginButton().click();
+
 	}
 
 }
