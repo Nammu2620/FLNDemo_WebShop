@@ -5,14 +5,17 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
+import ElementRepository.Cart;
 import ElementRepository.GiftCards;
 import ElementRepository.Login;
+import ElementRepository.Order_Checkout;
 import GenericLibrary.BaseClass;
 
 public class TC02_BuyGiftCardProFromCartCOD extends BaseClass{
 	@Test
 	public void buyGCPro() {
 		Login ln=new Login(driver);
+		ln.getLoginlink().click();
 		ln.getEmailTextBox().clear();
 		ln.getEmailTextBox().sendKeys("sonawaletanuja55@gmail.com");
 		ln.getPasswordTextBox().clear();
@@ -33,10 +36,26 @@ public class TC02_BuyGiftCardProFromCartCOD extends BaseClass{
 		gc.getsName().sendKeys("Saloni");
 		gc.getMsg().sendKeys("With love");
 		gc.getAddToCart().click();
+		gc.getShoppingCartlink().click();
 		
-		gc.getAddToCart().click();
+		Cart cart=new Cart(driver);
+		cart.getCheckbox().click();
+		cart.getCheckoutButton().click();
 		
-		
+		Order_Checkout order=new Order_Checkout(driver);
+		if(driver.findElement(By.xpath("//h2[text()='Billing Address']")).isEnabled())
+			order.getBillingcontinueButton().click();
+		if(driver.findElement(By.xpath("//h2[text()='Shipping Address']")).isEnabled())
+			order.getShippingContinueButton().click();
+		if(driver.findElement(By.xpath("//h2[text()='Shipping Method']")).isEnabled())	
+			order.getShippingMethodContinueButton().click();
+		if(driver.findElement(By.xpath("//h2[text()='Payment Method']")).isEnabled())	{
+			order.getPaymentMethodCODRadioButton().click();
+			order.getPaymentMethodContinueButton().click();
+		}
+		if(driver.findElement(By.xpath("//h2[text()='Payment Information']")).isEnabled())	
+			order.getPaymentInfoContinueButton().click();
+		order.getConfirmButton().click();
 		
 	}
 }
