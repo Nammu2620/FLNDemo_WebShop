@@ -35,13 +35,13 @@ public class Order_Checkout extends BasePage{
 	@FindBy(id = "BillingNewAddress_PhoneNumber")
 	private WebElement phoneNumberTextBox;
 	
-	@FindBy(xpath = "//div[@id='billing-buttons-container']/input")
+	@FindBy(xpath = "//div[@id='billing-buttons-container']/..//input[@title='Continue']")
 	private WebElement billingcontinueButton;
 
 	@FindBy(id = "billing-address-select")
 	private WebElement billingAddressdropdown;
 
-	@FindBy(xpath = "//div[@id='shipping-buttons-container']/input")
+	@FindBy(xpath = "//div[@id='shipping-buttons-container']")
 	private WebElement shippingContinueButton;
 	
 	@FindBy(id = "shippingoption_0")
@@ -56,7 +56,7 @@ public class Order_Checkout extends BasePage{
 	@FindBy(xpath = "//input[@class='button-1 shipping-method-next-step-button']")
 	private WebElement shippingMethodContinueButton;
 	
-	@FindBy(id = "paymentmethod_0")
+	@FindBy(xpath = "//input[contains(@value,'CashOnDelivery')]")
 	private WebElement paymentMethodCODRadioButton;
 	
 	@FindBy(id = "paymentmethod_1")
@@ -68,13 +68,13 @@ public class Order_Checkout extends BasePage{
 	@FindBy(id = "paymentmethod_3")
 	private WebElement paymentMethodPurchaseOrderRadioButton;
 	
-	@FindBy(xpath = "//input[@class='button-1 payment-method-next-step-button']")
+	@FindBy(xpath = "//div[contains(@id,'payment-method')]/..//input[@value='Continue']")
 	private WebElement paymentMethodContinueButton;
 	
-	@FindBy(xpath = "//input[@class='button-1 payment-info-next-step-button']")
+	@FindBy(xpath = "//div[contains(@id,'payment-info')]/..//input[@value='Continue']")
 	private WebElement paymentInfoContinueButton;
 	
-	@FindBy(xpath = "//input[@class='button-1 confirm-order-next-step-button']")
+	@FindBy(xpath = "//div[contains(@id,'confirm')]/..//input[@value='Confirm']")
 	private WebElement confirmButton;
 
 	public WebElement getFirstNameTextBox() {

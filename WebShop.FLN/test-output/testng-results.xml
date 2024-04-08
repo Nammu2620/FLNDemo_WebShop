@@ -8,12 +8,12 @@
       <![CDATA[URL is entered]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-04-08T10:47:11 IST" name="Default suite" finished-at="2024-04-08T10:47:28 IST" duration-ms="17370">
+  <suite started-at="2024-04-08T10:59:09 IST" name="Default suite" finished-at="2024-04-08T10:59:27 IST" duration-ms="17901">
     <groups>
     </groups>
-    <test started-at="2024-04-08T10:47:11 IST" name="Default test" finished-at="2024-04-08T10:47:28 IST" duration-ms="17370">
+    <test started-at="2024-04-08T10:59:09 IST" name="Default test" finished-at="2024-04-08T10:59:27 IST" duration-ms="17901">
       <class name="shushmitha.TC_02_RemoveFromCart_Test">
-        <test-method is-config="true" signature="beforeclass()[pri:0, instance:shushmitha.TC_02_RemoveFromCart_Test@68c9133c]" started-at="2024-04-08T10:47:11 IST" name="beforeclass" finished-at="2024-04-08T10:47:22 IST" duration-ms="10874" status="PASS">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:shushmitha.TC_02_RemoveFromCart_Test@68c9133c]" started-at="2024-04-08T10:59:09 IST" name="beforeclass" finished-at="2024-04-08T10:59:20 IST" duration-ms="10564" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser launched]]>
@@ -23,11 +23,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeclass -->
-        <test-method signature="TC_02_Test()[pri:0, instance:shushmitha.TC_02_RemoveFromCart_Test@68c9133c]" started-at="2024-04-08T10:47:22 IST" name="TC_02_Test" finished-at="2024-04-08T10:47:27 IST" duration-ms="5167" status="PASS">
+        <test-method signature="TC_02_Test()[pri:0, instance:shushmitha.TC_02_RemoveFromCart_Test@68c9133c]" started-at="2024-04-08T10:59:20 IST" name="TC_02_Test" finished-at="2024-04-08T10:59:26 IST" duration-ms="5958" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_02_Test -->
-        <test-method is-config="true" signature="afterclass()[pri:0, instance:shushmitha.TC_02_RemoveFromCart_Test@68c9133c]" started-at="2024-04-08T10:47:27 IST" name="afterclass" finished-at="2024-04-08T10:47:28 IST" duration-ms="1209" status="PASS">
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:shushmitha.TC_02_RemoveFromCart_Test@68c9133c]" started-at="2024-04-08T10:59:26 IST" name="afterclass" finished-at="2024-04-08T10:59:27 IST" duration-ms="1190" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterclass -->
