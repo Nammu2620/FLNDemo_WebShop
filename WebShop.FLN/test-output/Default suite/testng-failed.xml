@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tanuja.TC02_BuyGiftCardProFromCartCOD">
+      <class name="shushmitha.TC_01_PlaceOrder_Test">
         <methods>
-          <include name="buyGCPro"/>
+          <include name="TC_01_Test"/>
           <include name="beforeclass"/>
           <include name="afterclass"/>
         </methods>
-      </class> <!-- tanuja.TC02_BuyGiftCardProFromCartCOD -->
+      </class> <!-- shushmitha.TC_01_PlaceOrder_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
