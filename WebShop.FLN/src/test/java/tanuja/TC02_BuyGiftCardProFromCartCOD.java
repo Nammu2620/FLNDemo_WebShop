@@ -45,7 +45,7 @@ public class TC02_BuyGiftCardProFromCartCOD extends BaseClass{
 		cart.getCheckbox().click();
 		cart.getCheckoutButton().click();
 		
-		Order_Checkout order=new Order_Checkout(driver);
+		Order_Checkout order=new Order_Checkout(driver); 
 		order.getBillingcontinueButton().click();
 		order.getPaymentMethodCODRadioButton().click();
 		order.getPaymentMethodContinueButton().click();
