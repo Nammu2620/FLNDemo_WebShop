@@ -36,25 +36,20 @@ public class TC02_BuyGiftCardProFromCartCOD extends BaseClass{
 		gc.getsName().sendKeys("Saloni");
 		gc.getMsg().sendKeys("With love");
 		gc.getAddToCart().click();
+		System.out.println("Add to cart");
 		gc.getShoppingCartlink().click();
+		System.out.println("Shopping cart");
+		driver.navigate().refresh();
 		
 		Cart cart=new Cart(driver);
 		cart.getCheckbox().click();
 		cart.getCheckoutButton().click();
 		
 		Order_Checkout order=new Order_Checkout(driver);
-		if(driver.findElement(By.xpath("//h2[text()='Billing Address']")).isEnabled())
-			order.getBillingcontinueButton().click();
-		if(driver.findElement(By.xpath("//h2[text()='Shipping Address']")).isEnabled())
-			order.getShippingContinueButton().click();
-		if(driver.findElement(By.xpath("//h2[text()='Shipping Method']")).isEnabled())	
-			order.getShippingMethodContinueButton().click();
-		if(driver.findElement(By.xpath("//h2[text()='Payment Method']")).isEnabled())	{
-			order.getPaymentMethodCODRadioButton().click();
-			order.getPaymentMethodContinueButton().click();
-		}
-		if(driver.findElement(By.xpath("//h2[text()='Payment Information']")).isEnabled())	
-			order.getPaymentInfoContinueButton().click();
+		order.getBillingcontinueButton().click();
+		order.getPaymentMethodCODRadioButton().click();
+		order.getPaymentMethodContinueButton().click();
+		order.getPaymentInfoContinueButton().click();
 		order.getConfirmButton().click();
 		
 	}
